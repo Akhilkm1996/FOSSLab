@@ -1,0 +1,17 @@
+$ ./addnames.sh classlist akhil
+The New Classlist File is : 
+gokul
+gmon
+akhil
+$ ./addnames.sh classlist 
+Enter Correct Number of Arguments : ./addnames.sh <classlist> <username>
+$ ./addnames.sh classfile akhil
+File Not Found
+$ ./addnames.sh classlist kuttu
+The New Classlist File is : 
+gokul
+gmon
+akhil
+kuttu
+
+	
