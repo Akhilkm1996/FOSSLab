@@ -1,0 +1,4 @@
+awk '{print $3 "\t" $4}' marks.txt
+awk '/a/ {print $0}' marks.txt
+awk '/a/' marks.txt
+awk '/a/ {print $3 "\t" $4}' marks.txt
